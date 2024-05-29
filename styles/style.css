@@ -1,0 +1,339 @@
+.icon-color {
+    color: #FFC014;
+}
+
+.hide {
+    display: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mid-content {
+    max-width: 890px;
+    margin: auto;
+}
+
+body {
+
+
+    background: #E5E5E5;
+}
+
+hr {
+    border: 1px solid #D1D1D1;
+    width: 95%;
+    margin: auto;
+}
+
+
+
+
+
+/* header section */
+
+.header {
+    background: #562EFF;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo-pic {}
+
+.logo-pic img {
+    width: 40.42px;
+    height: 51px;
+}
+
+.logo-content {
+    color: white;
+    width: 54px;
+    height: 36px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.menu-content {}
+
+.menu-content ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 35px;
+}
+
+.menu-content ul li {
+    list-style: none;
+}
+
+.menu-content ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-pic {}
+
+.menu-pic img {
+    margin-left: 35px;
+}
+
+/* player part */
+.main {
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.players {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px;
+}
+
+.player-heading {
+    padding: 20px 0 0 35px;
+
+}
+
+.player {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+
+}
+
+.player-pic {}
+
+.player-pic img {
+    height: 56px;
+    width: 56px;
+
+
+}
+
+.player-content {
+    margin-left: 16px;
+}
+
+.player-content h3 {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* second part */
+
+.top-blog {}
+
+.top-blog h2 {
+    font-weight: 500;
+    font-size: 24px;
+    color: #562EFF;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.second-part {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 30px 0 0 30px;
+    padding-bottom: 25px;
+}
+
+.box {
+    display: flex;
+    margin-bottom: 26px;
+}
+
+.box-image {}
+
+.box-image img {
+    width: 177px;
+    height: 117px;
+
+}
+
+.box-content {
+    padding: 5px 0 0 20px;
+}
+
+.box-content h3 {
+    font-weight: 500;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.box-content p {
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 5px;
+    color: #562EFF;
+}
+
+/* footer section */
+.footer {
+
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.footer-header {
+    margin: 0px 0 0 28px;
+}
+
+.footer-header h2 {
+    font-weight: 500;
+    font-size: 24px;
+    color: #562EFF;
+    padding-top: 20px;
+}
+
+.box-controlar {
+    display: grid;
+    gap: 23px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.footer-box {
+    box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
+    border-radius: 7px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.footer-pic {
+    text-align: center;
+}
+
+.footer-pic img {
+    width: 224px;
+    height: 138px;
+    margin-bottom: 19px;
+}
+
+.footer-content {}
+
+.footer-content h3 {
+    font-weight: 500;
+    font-size: 20.0336px;
+    color: #1E1E1E;
+    padding: 0 0 0 10px;
+}
+
+.footer-content p {
+    font-weight: 400;
+    font-size: 14.6913px;
+    color: #ED6B4F;
+    padding: 0 0 0 10px;
+}
+
+.footer-icon {
+    display: flex;
+    gap: 24px;
+    padding: 10px 0 0 0px;
+}
+
+.footer-rating {}
+
+.time {
+    display: flex;
+    background: #FFE4E8;
+    border-radius: 7.6913px;
+}
+
+.time-img {}
+
+.time-img img {}
+
+.time-content {
+    font-weight: 600;
+    font-size: 14.6913px;
+    color: #FF4A60;
+
+}
+
+/* media quary */
+@media screen and (max-width: 576px) {
+
+    .header,
+    .logo,
+    .menu,
+    .player,
+    .box {
+        flex-direction: column;
+    }
+
+    .logo {
+
+        margin-top: 10px;
+    }
+
+    .menu-content {
+        padding: 10px;
+    }
+
+    .menu-pic {
+        margin-left: -37px;
+        padding: 10px;
+    }
+
+    .player {
+        margin-bottom: 20px;
+    }
+
+    .player-heading {
+        text-align: center;
+        margin-left: -25px;
+    }
+
+    .player-content {
+        margin-left: -1px;
+    }
+
+    .players {
+
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* second part */
+
+    .top-blog {
+        text-align: center;
+    }
+
+    .second-part {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .box-image {
+        text-align: center;
+    }
+
+    .box-content {
+        margin: 3px 20px 20px 10px;
+    }
+
+    .box-controlar {
+
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
